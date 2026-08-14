@@ -30,6 +30,9 @@ jobs:
 
       - name: Print a message
         run: echo "This is job 2 - Test step"
-
+      
+      - name: List files
+        run: ls -la
+        
       - name: Run a fake test
         run: echo "Running tests... All passed!"
